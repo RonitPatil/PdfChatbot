@@ -1,5 +1,4 @@
 import streamlit as st
-import lyzr
 from lyzr import ChatBot
 import os
 import tempfile
