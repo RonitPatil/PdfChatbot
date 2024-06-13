@@ -3,11 +3,10 @@ from lyzr import ChatBot
 import os
 import tempfile
 from utils import save_uploaded_file, remove_existing_files
-
 from dotenv import load_dotenv
 
 load_dotenv()
-api = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 data = "data"
 os.makedirs(data, exist_ok=True)
