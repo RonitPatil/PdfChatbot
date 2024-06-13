@@ -82,7 +82,8 @@ def handle_user_input(user_input):
 for message in st.session_state.chat_history:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
-
+        
+if uploaded_files:
 # Handle user input
-if user_input := st.chat_input("Ask me anything"):
-    handle_user_input(user_input)
+    if user_input := st.chat_input("Ask me anything"):
+        handle_user_input(user_input)
