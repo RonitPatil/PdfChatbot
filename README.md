@@ -17,7 +17,5 @@ Follow these steps to run the Lyzr searchAgent Streamlit App locally:
     ```bash
     streamlit run searchAgent.py
 
-
-
 ## About Lyzr
 Lyzr is the simplest agent framework to help customers build and launch Generative AI apps faster. It is a low-code agent framework that follows an **‘agentic’** way to build LLM apps, contrary to Langchain’s ‘functions and chains’ way and DSPy’s ‘programmatic’ way of building LLM apps. For more information, visit [Lyzr website](https://www.lyzr.ai/) .
