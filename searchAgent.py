@@ -2,6 +2,7 @@ import streamlit as st
 from lyzr import ChatBot
 import os
 import tempfile
+from openai import OpenAI
 from utils import save_uploaded_file, remove_existing_files
 from dotenv import load_dotenv
 
